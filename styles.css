@@ -31,3 +31,11 @@
 .dropdown-toggle {
     outline: 0;
 }
+
+#logo {
+    position: absolute;
+    width: 134.42px;
+    height: 136.29px;
+    left: 63.13px;
+    top: 55.16px;
+}
