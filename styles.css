@@ -1,3 +1,9 @@
+div{
+    border: 2px;
+    border-style: dashed;
+    border-color: #fff;
+}
+
 .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
@@ -35,7 +41,7 @@
 #logo {
     position: absolute;
     width: 134.42px;
-    height: 136.29px;
     left: 63.13px;
-    top: 55.16px;
+    /* top: 55.16px; */
 }
+

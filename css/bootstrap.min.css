@@ -53,7 +53,7 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: var(--bs-font-sans-serif);
-    --bs-body-font-size: 1rem;
+    --bs-body-font-size: 15.74px;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
@@ -205,7 +205,7 @@ ul {
 dl,
 ol,
 ul {
-    margin-top: 0;
+    margin-top: 20;
     margin-bottom: 1rem
 }
 
@@ -4398,13 +4398,14 @@ fieldset:disabled .btn {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    margin-bottom: 0;
+    margin: 13px 27px 0 0;
     list-style: none
 }
 
+/* 導覽列 */
 .nav-link {
     display: block;
-    padding: .5rem 1rem;
+    padding: 0px 38px;
     color: white;
     text-decoration: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
@@ -8212,7 +8213,7 @@ fieldset:disabled .btn {
 }
 
 .mb-4 {
-    margin-bottom: 1.5rem !important
+    margin-bottom: 1.5rem !important;
 }
 
 .mb-5 {
@@ -8320,8 +8321,9 @@ fieldset:disabled .btn {
     padding-bottom: .5rem !important
 }
 
+/* header */
 .py-3 {
-    padding-top: 1rem !important;
+    padding-top: 55px !important;
     padding-bottom: 1rem !important
 }
 
