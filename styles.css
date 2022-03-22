@@ -57,7 +57,7 @@
     color: white;
 }
 
-#box3-small{
+#text-small{
     font-size: 20px;
     color: white;
 }
@@ -72,7 +72,16 @@
     margin-top: -550px;
 }
 
+#box2{
+    position: absolute;
+    margin-top: 500px;
+    width: 70%;
+}
+
+#box2-out{
+    margin-top: -200px;
+}
+
 #text1{
-    margin-bottom: -1000px;
-    width: 60%;
+    margin: -20px -75px;
 }
