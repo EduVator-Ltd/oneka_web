@@ -45,9 +45,34 @@
 }
 
 #svg5 {
-    width: 100 px;
+    width: 100px;
 }
 
 #svg3 {
     width: 1000px;
+}
+
+#box3-big {
+    font-size: 45px;
+    color: white;
+}
+
+#box3-small{
+    font-size: 20px;
+    color: white;
+}
+
+#box3{
+    width: 770px;
+    margin-right: 116px;
+    margin-top: -300px;
+}
+
+#box3-out{
+    margin-top: -550px;
+}
+
+#text1{
+    margin-bottom: -1000px;
+    width: 60%;
 }
