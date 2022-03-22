@@ -1,8 +1,8 @@
-/* div{
+div{
     border: 2px;
     border-style: dashed;
     border-color: #fff;
-} */
+}
 
 .b-example-divider {
     height: 3rem;
@@ -74,8 +74,16 @@
 
 #box2{
     position: absolute;
-    margin-top: 500px;
+    /* margin-top: 1000px; */
     width: 70%;
+}
+
+#box21{
+    width: 60%;
+    position: relative;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #box2-out{
@@ -99,5 +107,7 @@
 }
 
 #button1{
-    height: 75.02px;
+    height: 80px;
+    margin-top: 59px;
+    margin-bottom: 100px;
 }
