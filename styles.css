@@ -93,3 +93,7 @@
     background: -webkit-linear-gradient(273deg, #0E0C3C 64%, #161360 92%);
     background: -o-linear-gradient(273deg, #0E0C3C 64%, #161360 92%);
 }
+
+#s5{
+    margin-top: -600px;
+}
