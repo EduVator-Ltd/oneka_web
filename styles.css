@@ -1,9 +1,15 @@
+/* <<<<<<< Updated upstream */
 /* div{
     border: 2px;
     border-style: dashed;
     border-color: #fff;
 } */
 
+/* ======= */
+html,body{
+    color:#ddd;
+}
+/* >>>>>>> Stashed changes */
 .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
