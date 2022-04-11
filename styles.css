@@ -118,19 +118,35 @@ html,body{
     margin-top: -60px;
 }
 
-/* 大標題用 */
-.link-left {
+/* 經驗區 */
+.link-left-exp{
     width: auto !important;
-    height: 5%;
+    height: 10vw;
     border-left: solid #ACC0D8 1vw;
-    padding: 0px 5%;
-    margin: 10% 0px;
-    margin-left: 10%;
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
+    margin-left: 5%;
+    padding: 0px 3%;
+
+}
+
+.exp-title-box{
+    padding-top: 10%;
 }
 
 /* 合作品牌區 */
+.link-left-co {
+    width: auto !important;
+    height: 4vw;
+    border-left: solid #ACC0D8 1vw;
+    padding: 0px 3%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 3vw;
+    color: white;
+}
+
 
 .img_card{
     height: 100px;
@@ -143,7 +159,8 @@ html,body{
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 10%;
-    margin-right: -10%;
+    margin-right: -30%;
+    margin-bottom: 5%;
 }
 
 .box{
@@ -161,5 +178,10 @@ html,body{
     right: 0;
     bottom: 0;
     z-index: 1;
-    width: 100%;
+    width: 80%;
+}
+
+/* footer */
+.footer-color{
+    background: linear-gradient(90deg, #0E0C3B 215930.01%, #171563 398671.02%);
 }
