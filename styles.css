@@ -11,7 +11,7 @@ html,body{
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
-  
+
 .form-control-dark {
     color: #fff;
     background-color: var(--bs-dark);
@@ -49,22 +49,24 @@ html,body{
 }
 
 #svg3 {
-    width: 1000px;
+    width: 70%;
 }
 
 #box3-big {
-    font-size: 45px;
+    font-size: 2.9vw;
     color: white;
 }
 
 #text-small{
-    font-size: 20px;
+    font-size: 22px;
     color: white;
+    letter-spacing: 3px;
+    text-align: justify;
 }
 
 #box3{
-    width: 770px;
-    margin-right: 116px;
+    width: 50%;
+    margin-right: 5%;
     margin-top: -300px;
 }
 
@@ -107,7 +109,56 @@ html,body{
 }
 
 #button1{
-    height: 80px;
     margin-top: 59px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
+    width: 13%;
+}
+
+#svg2{
+    margin-top: -60px;
+}
+
+/* 大標題用 */
+.link-left {
+    width: auto !important;
+    height: 5%;
+    border-left: solid #ACC0D8 1vw;
+    padding: 0px 5%;
+    margin: 10% 0px;
+    margin-left: 10%;
+    font-size: 4vw;
+    color: white;
+}
+
+/* 合作品牌區 */
+
+.img_card{
+    height: 100px;
+    margin-top: 27px;
+}
+
+#content {
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: -10%;
+}
+
+.box{
+    width: 20%;
+    margin: 20px 20px;
+    text-align: center;  
+}
+
+.svg6{
+    position: relative;
+}
+
+.svg6-img{
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
