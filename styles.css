@@ -121,17 +121,74 @@ html,body{
 /* 經驗區 */
 .link-left-exp{
     width: auto !important;
-    height: 10vw;
+    height: 8.5vw;
     border-left: solid #ACC0D8 1vw;
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: white;
     margin-left: 5%;
     padding: 0px 3%;
 
 }
 
+.link-bottom{
+    width: 50%;
+    height: 1px;
+    opacity: 0.14;
+    border: 3px solid #FFFFFF;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
 .exp-title-box{
-    padding-top: 10%;
+    padding-top: 8%;
+}
+
+.line-bottom{
+    border: 14px solid #818FE7;
+}
+
+.s6box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.s6box1{
+    height: 560px;
+    vertical-align: bottom;
+    background: linear-gradient(180deg, #8BADDD 768027.96%, #5F09FF 826946.96%);
+}
+
+.s6box2{
+    height: 393px;
+    background: linear-gradient(180deg, #8BADDD 0%, #5F09FF 100%);
+}
+
+.s6box3{
+    height: 330px;
+    background: linear-gradient(180deg, #8BADDD 794109%, #5F09FF 827025%);
+}
+
+.flex-item{
+    width: 340px;
+    margin: 0 1%;
+    text-align: center;
+    bottom: 0px;
+    align-self: end;
+}
+
+.text-small{
+    color: #FFE300;
+    font-size: 2vw;
+    font-weight: 900;
+
+}
+
+.text-big{
+    color: #FFFFFF;
+    font-size: 4vw;
+    font-weight: 700;
 }
 
 /* 合作品牌區 */
@@ -143,7 +200,7 @@ html,body{
     margin-left: 10%;
     margin-top: 10%;
     margin-bottom: 5%;
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: white;
 }
 
