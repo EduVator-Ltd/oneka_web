@@ -1,0 +1,168 @@
+/* ======= */
+html, body, header, main{
+  background-color:#6660ff;
+}
+
+
+html,body{
+  height: 100%;
+  /* background-color: azure; */
+}
+
+/* >>>>>>> Stashed changes */
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+#logo {
+  position: absolute;
+  width: 134.42px;
+  left: 63.13px;
+}
+
+#svg1{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: -10vw;
+}
+
+/* 課程區 */
+#class-box{
+  margin-top: -50vw;
+  background-image: url('svg/2.svg');
+  background-repeat: repeat-y;
+}
+
+#title-name{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #161963;
+  text-align: center;
+}
+
+#content {
+  align-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.class-img{
+  width: 420px;
+  margin: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,1.00);
+}
+
+.class-name{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.class-intro{
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* 足跡 */
+
+#footprint-name{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #161963;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 20%;
+}
+
+#footprint-name p{
+  margin: 0;
+  z-index: 100;
+}
+
+#footprint{
+  margin-top: -5vw;
+}
+
+#svg3{
+  margin-top: -20%;
+  z-index: 10;
+}
+
+.fpbox{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 10%;
+  margin-top: -25%;
+}
+
+.flex-item{
+  width: 340px;
+  margin: 0 1%;
+  text-align: center;
+  bottom: 0px;
+  align-self: end;
+}
+
+.text-small{
+  color: #2C2C2C;
+  font-size: 2vw;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.text-big{
+  color: #2C2C2C;
+  font-size: 5vw;
+  font-weight: 700;
+  font-family: Microsoft JhengHei;
+  letter-spacing: 3px;
+  margin-bottom: 0px;
+}
+
+.line-bottom{
+  border: 5px solid #7B762D;
+  margin: 10px 0;
+}
+
+
+/* footer */
+.footer-color{
+  background: #5a66dd;
+}
