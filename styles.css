@@ -203,7 +203,7 @@ html,body{
     letter-spacing: 3px;
 }
 
-#s6-svg1, #s6-svg2, #s6-svg3{
+#s6-svg1, #s6-svg2, #s6-svg3, #s6-svg4, #s6-svg5, #s6-svg6, #s6-svg7{
     position: absolute;
 }
 
@@ -223,6 +223,30 @@ html,body{
     width: 9%;
     margin-top: 27%;
     margin-left: 28%;
+}
+
+#s6-svg4{
+    width: 13%;
+    margin-top: 36%;
+    margin-left: 20%;
+}
+
+#s6-svg5{
+    width: 10%;
+    margin-top: 42%;
+    margin-left: 42%;
+}
+
+#s6-svg6{
+    width: 7%;
+    margin-top: 40%;
+    margin-left: 55%;
+}
+
+#s6-svg7{
+    width: 6%;
+    margin-top: 40%;
+    margin-left: 67%;
 }
 
 /* 合作品牌區 */
