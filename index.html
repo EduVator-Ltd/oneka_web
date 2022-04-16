@@ -21,29 +21,47 @@
 
 <body>
    <header>
-      <div class="d-flex flex-wrap justify-content-end py-3 mb-4">
-         <a href="../index.html" class="d-block" id="logo"><img src="svg/logo.svg"></a>
-
-         <ul class="nav nav-pills">
-            <li class="nav-item nav-link"> 關於我們 </li>
-            <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  課程介紹
-               </a>
-               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-               </ul>
-            </li>
-            <li class="nav-item"><a href="cooperate.html" class="nav-link"> 合作學校 </a></li>
-            <li class="nav-item nav-link"> 聯絡我們 </li>
-            <li class="nav-item nav-link"> 搜尋 </li>
-         </ul>
-      </div>
-
-
+      <nav class="navbar navbar-expand-md navbar-dark" aria-label="Fourth navbar example">
+         <div class="container-fluid">
+             <a href="index.html" class="d-block">
+                 <img src="svg/logo.svg" id="logo">
+             </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                 aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+ 
+             <div class="collapse navbar-collapse justify-content-md-end navbar-control">
+                 <ul class="navbar-nav mb-2" style="margin-right: 1rem;">
+                     <li class="nav-item">
+                         <a class="nav-link dropdown-toggle" href="about/about.html" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"> 關於我們 </a>
+                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                             <li><a class="dropdown-item" href="#">Action</a></li>
+                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                             <li><a class="dropdown-item" href="#">Something else here</a></li>
+                         </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="intro_class/intro.html" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false"> 課程介紹 </a>
+                         <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                             <li><a class="dropdown-item" href="#">Action</a></li>
+                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                             <li><a class="dropdown-item" href="#">Something else here</a></li>
+                         </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                         <a class="nav-link disabled" href="#"> 合作學校 </a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link disabled" href="#"> 聯絡我們 </a>
+                     </li>
+                 </ul>
+                 <form>
+                     <input class="form-control" type="text" placeholder="搜尋" aria-label="Search">
+                 </form>
+             </div>
+         </div>
+     </nav>
    </header>
 
    <main>
@@ -63,9 +81,9 @@
                有勇氣面對現實的社會，找到自己的興趣，用興趣玩轉工作與生活。從學生到技術人員，孩子需要學習的有很多，如果要跨越階級，成為專業人士或是領導者，最重要的就是有時間觀念與遠見。遠見，就是培養跨領域思維，以及團隊的協調統合能力。技術與口條需要時間來培養，但是成為領袖的領導力和態度從小就能學習，如果孩子最喜歡玩，那我們就用"玩"來翻轉傳統教育吧。
             </p>
          </div>
-        <div>
-          <img src="svg/bk/2.svg" id="svg2"></img>
-        </div>
+         <div>
+            <img src="svg/bk/2.svg" id="svg2"></img>
+         </div>
 
       </div>
 
@@ -88,6 +106,13 @@
       </section>
 
       <section id="s6">
+         <img src="svg/experience/1.svg" id="s6-svg1"></img>
+         <img src="svg/experience/2.svg" id="s6-svg2"></img>
+         <img src="svg/experience/3.svg" id="s6-svg3"></img>
+         <img src="svg/experience/4.svg" id="s6-svg4"></img>
+         <img src="svg/experience/5.svg" id="s6-svg5"></img>
+         <img src="svg/experience/6.svg" id="s6-svg6"></img>
+         <img src="svg/experience/7.svg" id="s6-svg7"></img>
          <div class="exp-title-box">
             <div class="link-left-exp">
                <p> 程式教育超過 </p>
@@ -96,22 +121,22 @@
             <div class="link-bottom"></div>
          </div>
 
-         <div class = "s6box">
-            <div class = "flex-item">
-                  <div class="s6box1">
-                     <p class="text-big"> 104+ </p>
-                     <p class="text-small"> 學校合作 </p>
-                  </div>
-                  <div class="line-bottom"></div>
+         <div class="s6box">
+            <div class="flex-item">
+               <div class="s6box1">
+                  <p class="text-big"> 104+ </p>
+                  <p class="text-small"> 學校合作 </p>
+               </div>
+               <div class="line-bottom"></div>
             </div>
-            <div class = "flex-item">
+            <div class="flex-item">
                <div class="s6box2">
                   <p class="text-big"> 30+ </p>
                   <p class="text-small"> 品牌合作 </p>
                </div>
                <div class="line-bottom"></div>
             </div>
-            <div class = "flex-item">
+            <div class="flex-item">
                <div class="s6box3">
                   <p class="text-big"> 10+ </p>
                   <p class="text-small"> 超過10年教育經驗 </p>
@@ -120,8 +145,8 @@
             </div>
          </div>
 
-         
-         
+
+
       </section>
 
       <!-- 合作品牌區塊 -->
@@ -129,7 +154,7 @@
          <div class="row align-items-stretch">
             <div class="col">
                <div class="link-left-co"> 合作品牌 </div>
-               <div id="content"> 
+               <div id="content">
                   <div class="box">
                      <img src="img/cooperate/logo1.png" alt="logo" class="img_card">
                   </div>
@@ -167,7 +192,7 @@
                <div class="svg6-img">
                   <img src="svg/bk/6.svg"></img>
                </div>
-         </div>
+            </div>
       </section>
    </main>
 

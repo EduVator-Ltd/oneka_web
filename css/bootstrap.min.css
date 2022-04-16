@@ -2258,10 +2258,10 @@ progress {
 
 .form-control {
     display: block;
-    width: 100%;
+    width: 90%;
     padding: .375rem .75rem;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 1.5;
     color: #212529;
     background-color: #fff;
@@ -4683,8 +4683,8 @@ fieldset:disabled .btn {
     }
 
     .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: .5rem;
-        padding-left: .5rem
+        padding-right: 1rem;
+        padding-left: 1rem
     }
 
     .navbar-expand-md .navbar-nav-scroll {
@@ -4693,7 +4693,7 @@ fieldset:disabled .btn {
 
     .navbar-expand-md .navbar-collapse {
         display: flex !important;
-        flex-basis: auto
+        flex-basis: auto;     
     }
 
     .navbar-expand-md .navbar-toggler {

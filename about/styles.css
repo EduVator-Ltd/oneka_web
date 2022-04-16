@@ -1,0 +1,10 @@
+/* ======= */
+html,body{
+    color:#ddd;
+}
+
+#logo {
+    height: 130px;
+    padding-top: 20px;
+    padding-left: 20px;
+}

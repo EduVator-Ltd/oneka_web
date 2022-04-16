@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+    <link href="styles.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <title> OneKa! </title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+                <a href="../index.html" class="d-block">
+                    <img src="../svg/logo.svg" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                    aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse justify-content-md-end navbar-control">
+                    <ul class="navbar-nav mb-2" style="margin-right: 1rem;">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="../about/about.html" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"> 關於我們 </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../intro_class/intro.html" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false"> 課程介紹 </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link disabled" href="#"> 合作學校 </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#"> 聯絡我們 </a>
+                        </li>
+                    </ul>
+                    <form>
+                        <input class="form-control" type="text" placeholder="搜尋" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>

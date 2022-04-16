@@ -39,10 +39,11 @@ html,body{
 }
 
 #logo {
-    position: absolute;
-    width: 134.42px;
-    left: 63.13px;
+    height: 130px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
+
 
 #svg5 {
     width: 100px;
@@ -121,13 +122,14 @@ html,body{
 /* 經驗區 */
 .link-left-exp{
     width: auto !important;
-    height: 8.5vw;
+    height: 9.5vw;
     border-left: solid #ACC0D8 1vw;
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: white;
     margin-left: 5%;
     padding: 0px 3%;
-
+    letter-spacing: 4px;
+    font-weight: 600;
 }
 
 .link-bottom{
@@ -135,7 +137,7 @@ html,body{
     height: 1px;
     opacity: 0.14;
     border: 3px solid #FFFFFF;
-    margin-top: 2%;
+    margin-top: 3%;
     margin-left: 5%;
 }
 
@@ -157,16 +159,25 @@ html,body{
 .s6box1{
     height: 560px;
     vertical-align: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background: linear-gradient(180deg, #8BADDD 768027.96%, #5F09FF 826946.96%);
 }
 
 .s6box2{
     height: 393px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background: linear-gradient(180deg, #8BADDD 0%, #5F09FF 100%);
 }
 
 .s6box3{
     height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background: linear-gradient(180deg, #8BADDD 794109%, #5F09FF 827025%);
 }
 
@@ -182,26 +193,76 @@ html,body{
     color: #FFE300;
     font-size: 2vw;
     font-weight: 900;
-
+    letter-spacing: 2px;
 }
 
 .text-big{
     color: #FFFFFF;
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: 700;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 3px;
+}
+
+#s6-svg1, #s6-svg2, #s6-svg3, #s6-svg4, #s6-svg5, #s6-svg6, #s6-svg7{
+    position: absolute;
+}
+
+#s6-svg1{
+    width: 9%;
+    margin-top: 7%;
+    margin-left: 37%;
+}
+
+#s6-svg2{
+    width: 7%;
+    margin-top: 15%;
+    margin-left: 65%;
+}
+
+#s6-svg3{
+    width: 9%;
+    margin-top: 27%;
+    margin-left: 28%;
+}
+
+#s6-svg4{
+    width: 13%;
+    margin-top: 36%;
+    margin-left: 20%;
+}
+
+#s6-svg5{
+    width: 10%;
+    margin-top: 42%;
+    margin-left: 42%;
+}
+
+#s6-svg6{
+    width: 7%;
+    margin-top: 40%;
+    margin-left: 55%;
+}
+
+#s6-svg7{
+    width: 6%;
+    margin-top: 40%;
+    margin-left: 67%;
 }
 
 /* 合作品牌區 */
 .link-left-co {
     width: auto !important;
-    height: 4vw;
+    height: 4.5vw;
     border-left: solid #ACC0D8 1vw;
-    padding: 0px 3%;
+    padding: 0px 4%;
     margin-left: 10%;
     margin-top: 10%;
     margin-bottom: 5%;
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: white;
+    letter-spacing: 4px;
+    font-weight: 600;
 }
 
 
