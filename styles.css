@@ -39,10 +39,11 @@ html,body{
 }
 
 #logo {
-    position: absolute;
-    width: 134.42px;
-    left: 63.13px;
+    height: 130px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
+
 
 #svg5 {
     width: 100px;

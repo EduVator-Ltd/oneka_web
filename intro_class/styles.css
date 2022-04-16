@@ -3,6 +3,12 @@ html, body, header, main{
   background-color:#6660ff;
 }
 
+#logo {
+  height: 130px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
 
 html,body{
   height: 100%;
@@ -42,12 +48,6 @@ html,body{
 
 .dropdown-toggle {
   outline: 0;
-}
-
-#logo {
-  position: absolute;
-  width: 134.42px;
-  left: 63.13px;
 }
 
 #svg1{
