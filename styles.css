@@ -303,3 +303,17 @@ html,body{
 .footer-color{
     background: linear-gradient(90deg, #0E0C3B 215930.01%, #171563 398671.02%);
 }
+
+/* RWD */
+@media screen and (min-width:540px){
+    
+}
+@media screen and (min-width:768px){
+
+}
+@media screen and (min-width:960px){
+
+}
+@media screen and (min-width:1200px){
+
+}
