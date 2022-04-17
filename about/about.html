@@ -1,67 +1,188 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="app.js"></script>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="app.js"></script>
+        <link href="styles.css" rel="stylesheet" />
+        <link
+            rel="canonical"
+            href="https://getbootstrap.com/docs/5.1/examples/navbars/"
+        />
 
-    <link href="styles.css" rel="stylesheet">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
+        <!-- Bootstrap core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+        />
 
-    <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <title>OneKa!</title>
+    </head>
 
-    <title> OneKa! </title>
-</head>
-
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark" aria-label="Fourth navbar example">
-            <div class="container-fluid">
+    <body>
+        <header>
+            <img src="svg/1.svg" />
+            <nav
+                class="navbar navbar-expand-md navbar-dark"
+                aria-label="Fourth navbar example"
+            >
+                <div class="container-fluid">
                 <a href="../index.html" class="d-block">
-                    <img src="../svg/logo.svg" id="logo">
+                    <img src="../svg/logo.svg" id="logo" />
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
-                    aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample04"
+                    aria-controls="navbarsExample04"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-    
-                <div class="collapse navbar-collapse justify-content-md-end navbar-control">
-                    <ul class="navbar-nav mb-2" style="margin-right: 1rem;">
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" href="../about/about.html" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"> 關於我們 </a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+
+                <div
+                    class="collapse navbar-collapse justify-content-md-end navbar-control"
+                >
+                    <ul class="navbar-nav mb-2" style="margin-right: 1rem">
+                    <li class="nav-item">
+                        <a
+                        class="nav-link dropdown-toggle"
+                        href="../about/about.html"
+                        id="dropdown01"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        >
+                        關於我們
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="../intro_class/intro.html" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false"> 課程介紹 </a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                        class="nav-link dropdown-toggle"
+                        href="../intro_class/intro.html"
+                        id="dropdown02"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        >
+                        課程介紹
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link disabled" href="#"> 合作學校 </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#"> 聯絡我們 </a>
-                        </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link disabled" href="#"> 合作學校 </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#"> 聯絡我們 </a>
+                    </li>
                     </ul>
                     <form>
-                        <input class="form-control" type="text" placeholder="搜尋" aria-label="Search">
+                    <input
+                        class="form-control"
+                        type="text"
+                        placeholder="搜尋"
+                        aria-label="Search"
+                    />
                     </form>
                 </div>
-            </div>
-        </nav>
-    </header>
-    
-</body>
+                </div>
+            </nav>
+        </header>
 
+        <main>
+            <!-- 故事 -->
+            <div>
+                <div class="main_big_text">One Ka 故事 </div>
+                <div class="link-bottom"></div>
+                <div class="main_small_text">
+                    7年前，工業4.0時代，紅色供應鏈失去優勢，台灣開始轉型為以軟體和資訊研發為主的商業模式。在當時，
+                    玩咖從GOOGLE講師培訓開始，逐漸將觸角延伸到WEBDUINO與3D列印的教學，為每所想要提升程式邏輯思維的學校，
+                    量身打造適合的教學方案。這些年來，我們已經深入台灣三百多所大專院校與國中小進行程式教育的教學，
+                    教授生活科技以及科技教育的課程，用STEAM的概念，培育出不少小小發明家。
+                    7年後，我們用這7年累積的校園教育經驗為基礎，讓孩子告訴我們，他們認為現在的學校教育有哪些不足?
+                    他們關注什麼?想要如何學習?為孩子量身打造孩子真正想要擁有的學習環境。
+                </div>
+            </div>
+
+            <!-- 理念 -->
+            <img src="svg/資產 24.svg" id="aaaa"/>
+            <div>
+                <div class="main_big_text">One Ka 理念 </div>
+                <div class="link-bottom"></div>
+                <div class="main_small_text">
+                    "玩"是孩子與生俱來的能力。孩子從出生開始就會模仿大人的行為並學習他們教導的事物，
+                    目前的教育是單方面地給予與接受，但我們想要突破這個現況，我們要讓每個孩子都能是主動者、探索者，
+                    學習出自於自發。玩樂中自由想像、發揮創意，進而挑戰自己、嘗試突破。
+                </div>
+                <div class="main_small_text">
+                    學習，是為了讓孩子在長大後擁有面對世界的勇氣。有勇氣面對現實的社會，找到自己的興趣，
+                    用興趣玩轉工作與生活。從學生到技術人員，孩子需要學習的有很多，如果要跨越階級，
+                    成為專業人士或是領導者，最重要的就是有時間觀念與遠見。遠見，就是培養跨領域思維，
+                    以及團隊的協調統合能力。技術與口條需要時間來培養，但是成為領袖的領導力和態度從小就能學習，
+                    如果孩子最喜歡玩，那我們就用"玩"來翻轉傳統教育吧。
+                </div>
+            </div>
+
+            <!-- 原則 -->
+            <div>
+                <div class="main_big_text">One Ka 原則 </div>
+                <div class="link-bottom"></div>
+                <div class="main_small_text">
+                    敏捷 、彈性 、高效 、客製化，是我們的原則。玩咖的課程設計，從獎勵機制到學習內容都是就讀108課綱的國小學童所提出。
+                    我們有優良的團隊，依據這些資訊，隨這小朋友會喜歡的時勢或是話題，在依照學生數量與需求設計專屬的課程。
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center text-white footer-color">
+            <div class="container p-4 pb-0">
+                <section class="mb-4">
+                <a
+                    class="btn btn-outline-light btn-floating m-1"
+                    href="#!"
+                    role="button"
+                >
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                    class="btn btn-outline-light btn-floating m-1"
+                    href="#!"
+                    role="button"
+                >
+                    <i class="fab fa-google"></i>
+                </a>
+                <a
+                    class="btn btn-outline-light btn-floating m-1"
+                    href="#!"
+                    role="button"
+                >
+                    <i class="fab fa-instagram"></i>
+                </a>
+                </section>
+            </div>
+            <div class="text-center p-3">
+                © 2022 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">
+                All Rights Reserved
+                </a>
+            </div>
+        </footer>
+    </body>
 </html>
