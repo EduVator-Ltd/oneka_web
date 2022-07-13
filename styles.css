@@ -38,6 +38,8 @@ html,body{
     outline: 0;
 }
 
+
+
 #logo {
     height: 130px;
     padding-top: 20px;
@@ -50,6 +52,8 @@ html,body{
 }
 
 #svg3 {
+    position: relative;
+    left:-7px;
     width: 70%;
 }
 
@@ -69,16 +73,20 @@ html,body{
     width: 50%;
     margin-right: 5%;
     margin-top: -300px;
+    z-index: 1000;
 }
 
 #box3-out{
-    margin-top: -550px;
+    top: -1150px;
+    position: relative;
 }
 
 #box2{
     position: absolute;
-    margin-top: 300px;
+    /* margin-top: 300px; */
     width: 70%;
+    top:300px;
+    z-index: 1;
 }
 
 #box21{
@@ -89,24 +97,107 @@ html,body{
     transform: translate(-50%, -50%);
 }
 
+
 #box2-out{
     margin-top: 0px;
+    position: relative;
 }
+
+#svg2{
+    top:-680px;
+    position: relative;
+    z-index:-1;
+}
+
+.s2-slider{
+    /* opacity: 50%; */
+    margin:0 auto;
+    top:700px;
+    z-index: 30;
+}
+.s2-slider div{
+    /* right:5px; */
+    padding: 0 10px;
+    background:transparent;
+    height: 650px;
+}
+.s2-slider div img{
+    width: 100%;
+}
+
+.slick-prev{
+    left:30px;
+    z-index: 1000;
+}
+.slick-next{
+    right:10px;
+}
+.slick-slide img{
+    opacity:30%;
+    transition:0.5s;
+}
+.slick-center img{
+    opacity: 100%;
+    transition:0.5s;
+}
+
+.slick-dots li button::before{
+    padding-top:20px;
+    color: #fff; 
+   /* font-size:; */
+   /* font-family: 'slick'; */
+    font-size: 10px;
+    /* line-height: 20px; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 20px; */
+    /* height: 20px; */
+    /* content: '•'; */
+    /* text-align: center; */
+    /* opacity: .25; */ 
+}
+.slick-dots li.slick-active button::before{
+    color: rgb(34, 34, 34);
+}
+
+#box4-out{
+    position: relative;
+    top:-1100px;
+    height: 1100px;
+}
+#svg4{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#svg5{
+    position: absolute;
+    width: 100%;
+    bottom: -1100px;
+}
+/* #box5-out h3{
+    position: absolute;
+    text-align: center;
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    top: -60%;
+    left: 45%;
+} */
 
 #text1{
     margin: 0px -75px;
 }
 
+/* 經驗區 */
 #s6{
+    position: relative;
+    /* top:-1500px; */
     height: 1255.63px;
     background: linear-gradient(273deg, #0E0C3C 64%, #161360 92%);
     background: -moz-linear-gradient(273deg, #0E0C3C 64%, #161360 92%);
     background: -webkit-linear-gradient(273deg, #0E0C3C 64%, #161360 92%);
     background: -o-linear-gradient(273deg, #0E0C3C 64%, #161360 92%);
-}
-
-#s5{
-    margin-top: -600px;
 }
 
 #button1{
@@ -115,11 +206,6 @@ html,body{
     width: 13%;
 }
 
-#svg2{
-    margin-top: -60px;
-}
-
-/* 經驗區 */
 .link-left-exp{
     width: auto !important;
     height: 9.5vw;
@@ -251,6 +337,10 @@ html,body{
 }
 
 /* 合作品牌區 */
+#s7{
+    position: relative;
+    /* bottom:1500px; */
+}
 .link-left-co {
     width: auto !important;
     height: 4.5vw;
