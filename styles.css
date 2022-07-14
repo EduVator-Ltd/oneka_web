@@ -128,15 +128,17 @@ html,body{
 .slick-prev{
     left:30px;
     z-index: 1000;
+    transform: scale(2);
 }
 .slick-next{
     right:10px;
+    transform: scale(2);
 }
-.slick-slide img{
+.slick-slide{
     opacity:30%;
     transition:0.5s;
 }
-.slick-center img{
+.slick-center{
     opacity: 100%;
     transition:0.5s;
 }
@@ -166,6 +168,33 @@ html,body{
     top:-1100px;
     height: 1100px;
 }
+
+#box4-out h2{
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.card_group{
+    margin: 0 auto;
+    width: 90%;
+}
+.card{
+    width: 180rem;
+    margin: 60px;
+    border-radius: 40px !important;
+    overflow: hidden;
+}
+.card_group .slick-slide{
+    width: 50%;
+    transform: scale(0.9);
+    transition: all 0.8s;
+}
+.card_group .slick-center{
+    width: 100%;
+    transform:scale(1.2);
+}
+
 #svg4{
     position: absolute;
     top: 0;
@@ -231,15 +260,12 @@ html,body{
     padding-top: 8%;
 }
 
-.line-bottom{
-    border: 14px solid #818FE7;
-}
-
 .s6box{
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 10%;
+    /* background-color: #fff; */
 }
 
 .s6box1{
@@ -248,7 +274,8 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: linear-gradient(180deg, #8BADDD 768027.96%, #5F09FF 826946.96%);
+    background: linear-gradient(180deg, #8BADDD 10%, #5F09FF 90%);
+    border-bottom: 28px solid #818FE7;
 }
 
 .s6box2{
@@ -256,7 +283,8 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: linear-gradient(180deg, #8BADDD 0%, #5F09FF 100%);
+    background: linear-gradient(180deg, #8BADDD 10%, #5F09FF 90%);
+    border-bottom: 28px solid #818FE7;
 }
 
 .s6box3{
@@ -264,7 +292,8 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: linear-gradient(180deg, #8BADDD 794109%, #5F09FF 827025%);
+    background: linear-gradient(180deg, #8BADDD 10%, #5F09FF 90%);
+    border-bottom: 28px solid #818FE7;
 }
 
 .flex-item{
@@ -362,13 +391,17 @@ html,body{
 }
 
 #content {
-    align-content: space-around;
+    transform: translate(5%, 0);
+    padding-bottom: 80px;
+    /* background-color: #fff; */
+    /* margin-left: 0 4%; */
+    /* align-content: space-around;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 10%;
     margin-right: -30%;
-    margin-bottom: 5%;
+    margin-bottom: 5%; */
 }
 
 .box{
@@ -386,7 +419,7 @@ html,body{
     right: 0;
     bottom: 0;
     z-index: 1;
-    width: 80%;
+    width: 110%;
 }
 
 /* footer */
@@ -409,6 +442,14 @@ html,body{
     #logo{
         width: calc(100% - 8px);
     }
+    .svg6-img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 180%;
+        transform: translate(120px,0px)
+    }
     
 }
 @media screen and (min-width:992px){
@@ -418,10 +459,9 @@ html,body{
     [class^="s6box"]{
         width: 80%;
     }
+}
+@media screen and (min-width:1200px){
     .s6box{
         width: 100%;
     }
-}
-@media screen and (min-width:1200px){
-
 }
